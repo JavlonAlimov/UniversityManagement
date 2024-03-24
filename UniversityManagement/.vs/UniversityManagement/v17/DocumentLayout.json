@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\universitymanagement\\univercitymanagement\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\universitymanagement\\univercitymanagement\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Views\\Courses\\Create.cshtml",
+              "RelativeToolTip": "UnivercityManagement\\Views\\Courses\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T06:35:09.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "UnivercityManagement\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAmwFEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:38:25.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
