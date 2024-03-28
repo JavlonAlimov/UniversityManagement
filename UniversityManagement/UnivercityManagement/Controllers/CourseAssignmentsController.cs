@@ -49,8 +49,8 @@ namespace UniversityManagement.Controllers
         // GET: CourseAssignments/Create
         public IActionResult Create()
         {
-            ViewData["CourseId"] = new SelectList(_context.Courses, "Id", "Name");
-            ViewData["InstructorId"] = new SelectList(_context.Instructors, "Id", "Id");
+            ViewData["Courses"] = new SelectList(_context.Courses, "Id", "Name");
+            ViewData["Instructor"] = new SelectList(_context.Instructors, "Id", "FullName");
             return View();
         }
 
@@ -67,8 +67,8 @@ namespace UniversityManagement.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CourseId"] = new SelectList(_context.Courses, "Id", "Name", courseAssignment.CourseId);
-            ViewData["InstructorId"] = new SelectList(_context.Instructors, "Id", "Id", courseAssignment.InstructorId);
+            ViewData["Courses"] = new SelectList(_context.Courses, "Id", "Name", courseAssignment.CourseId);
+            ViewData["Instructor"] = new SelectList(_context.Instructors, "Id", "FullName", courseAssignment.InstructorId);
             return View(courseAssignment);
         }
 

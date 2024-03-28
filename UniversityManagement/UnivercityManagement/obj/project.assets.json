@@ -7844,11 +7844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
+      "projectUniqueName": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
       "projectName": "UniversityManagement",
-      "projectPath": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
+      "projectPath": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
       "packagesPath": "C:\\Users\\javlo\\.nuget\\packages\\",
-      "outputPath": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\obj\\",
+      "outputPath": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\javlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

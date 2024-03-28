@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JiMXrqLM0po1ifqeSm18mJIUYcjbhmgyxnY5CSBtbTPhPIAM2mjY8XL3XQewjwZs3WsyqUqqaKNQai0D/vVpDQ==",
+  "dgSpecHash": "RpxbUqfSwgPq4W/EHD3itEm105ST/qSMeO2dK6oz1xjrkyjavvlRVcbbXi/6hELtv3jQbaGv8s9hKP5frfvOww==",
   "success": true,
-  "projectFilePath": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
+  "projectFilePath": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\UniversityManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\javlo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\javlo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

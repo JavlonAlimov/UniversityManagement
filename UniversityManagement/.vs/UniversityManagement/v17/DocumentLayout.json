@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\",
+  "WorkspaceRootPath": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\universitymanagement\\univercitymanagement\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\universitymanagement\\univercitymanagement\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\courseassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\courseassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\controllers\\courseassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\controllers\\courseassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|c:\\javlon alimov\\c#\\github\\universitymanagement\\universitymanagement\\univercitymanagement\\views\\courseassignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4899D62B-7387-4C79-BED6-71832E0E7A7E}|UnivercityManagement\\UniversityManagement.csproj|solutionrelative:univercitymanagement\\views\\courseassignments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Views\\Courses\\Create.cshtml",
-              "RelativeDocumentMoniker": "UnivercityManagement\\Views\\Courses\\Create.cshtml",
-              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Views\\Courses\\Create.cshtml",
-              "RelativeToolTip": "UnivercityManagement\\Views\\Courses\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T06:35:09.105Z",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\Course.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Course.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\Course.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:13:18.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\Department.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Department.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:13:14.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Enrollment.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\Enrollment.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Enrollment.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\Enrollment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:12:59.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CoursesController.cs",
-              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Controllers\\CoursesController.cs",
-              "RelativeDocumentMoniker": "UnivercityManagement\\Controllers\\CoursesController.cs",
-              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\UniversityManagement\\UnivercityManagement\\Controllers\\CoursesController.cs",
-              "RelativeToolTip": "UnivercityManagement\\Controllers\\CoursesController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAmwFEAAAANAAAA",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\Student.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Student.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\Student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T17:38:25.641Z",
+              "WhenOpened": "2024-03-25T04:12:49.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseAssignment.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\CourseAssignment.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\CourseAssignment.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\CourseAssignment.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\CourseAssignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:11:33.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Instructor.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Entities\\Instructor.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Entities\\Instructor.cs",
+              "RelativeToolTip": "UnivercityManagement\\Entities\\Instructor.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:06:50.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Views\\CourseAssignments\\Create.cshtml",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Views\\CourseAssignments\\Create.cshtml",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Views\\CourseAssignments\\Create.cshtml",
+              "RelativeToolTip": "UnivercityManagement\\Views\\CourseAssignments\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T04:03:05.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseAssignmentsController.cs",
+              "DocumentMoniker": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Controllers\\CourseAssignmentsController.cs",
+              "RelativeDocumentMoniker": "UnivercityManagement\\Controllers\\CourseAssignmentsController.cs",
+              "ToolTip": "C:\\JAVLON ALIMOV\\C#\\Github\\UniversityManagement\\UniversityManagement\\UnivercityManagement\\Controllers\\CourseAssignmentsController.cs",
+              "RelativeToolTip": "UnivercityManagement\\Controllers\\CourseAssignmentsController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAIwD8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T03:55:34.134Z",
               "EditorCaption": ""
             }
           ]

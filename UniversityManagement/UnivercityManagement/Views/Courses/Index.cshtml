@@ -10,7 +10,7 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-controller="Course" asp-action="Index">
+<form asp-controller="Courses" asp-action="Index">
     <p>
         Title: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
@@ -30,7 +30,7 @@
                 @Html.DisplayNameFor(model => model.Hours)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Department)
+                @Html.DisplayNameFor(model => model.Department.Name)
             </th>
             <th></th>
         </tr>

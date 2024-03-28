@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using UniversityManagement.Data;
@@ -22,17 +18,14 @@ namespace UniversityManagement.Controllers
         // GET: Courses
         public async Task<IActionResult> Index(string searchString)
         {
-            if (_context.Courses == null)
-            {
-                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
-            }
 
-            var courses = from m in _context.Courses
+            var courses = from m in _context.Courses.Include(x => x.Department).AsQueryable()
                          select m;
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                courses = courses.Where(s => s.Name!.Contains(searchString));
+                courses = courses.Where(s => s.Name.Contains(searchString) || 
+                s.Department!.Name.Contains(searchString));
             }
 
             return View(await courses.ToListAsync());
@@ -63,7 +56,7 @@ namespace UniversityManagement.Controllers
         // GET: Courses/Create
         public IActionResult Create()
         {
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Id");
+            ViewData["Departments"] = new SelectList(_context.Departments, "Id", "Name");
             return View();
         }
 
@@ -80,7 +73,7 @@ namespace UniversityManagement.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Department"] = new SelectList(_context.Departments, "Id", "Id", course.DepartmentId);
+            ViewData["Departments"] = new SelectList(_context.Departments, "Id", "Name", course.DepartmentId);
             return View(course);
         }
 
@@ -97,7 +90,7 @@ namespace UniversityManagement.Controllers
             {
                 return NotFound();
             }
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Id", course.DepartmentId);
+            ViewData["Departments"] = new SelectList(_context.Departments, "Id", "Name", course.DepartmentId);
             return View(course);
         }
 
@@ -133,7 +126,7 @@ namespace UniversityManagement.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Id", course.DepartmentId);
+            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", course.DepartmentId);
             return View(course);
         }
 

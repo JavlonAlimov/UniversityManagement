@@ -14,11 +14,10 @@ namespace UniversityManagement.Entities
         public string Name { get; set; }
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
-        [DataType(DataType.Time)]
         public int Hours { get; set; }
         [ForeignKey(nameof(DepartmentId))]
         public int DepartmentId {  get; set; }
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
 
         public virtual ICollection<CourseAssignment> Assignments { get; set; }
         public Course()

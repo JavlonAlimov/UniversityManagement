@@ -9,8 +9,8 @@ namespace UniversityManagement.Entities
         [Required]
         public int Id { get; set; }
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public Student? Student { get; set; }
         public int AssignmentId { get; set; }
-        public CourseAssignment CourseAssignment { get; set; }
+        public CourseAssignment? CourseAssignment { get; set; }
     }
 }
