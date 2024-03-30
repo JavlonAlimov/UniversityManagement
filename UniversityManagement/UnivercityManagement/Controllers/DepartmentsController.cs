@@ -22,20 +22,15 @@ namespace UniversityManagement.Controllers
         // GET: Departments
         public async Task<IActionResult> Index(string searchString)
         {
-            if (_context.Departments == null)
-            {
-                return Problem("Entity set Filter is null.");
-            }
-
-            var departments = from m in _context.Departments
-                         select m;
+            var query = _context.Departments
+                .AsQueryable();
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                departments = departments.Where(s => s.Name!.Contains(searchString));
+                query = query.Where(s => s.Name!.Contains(searchString));
             }
 
-            return View(await departments.ToListAsync());
+            return View(await query.ToListAsync());
         }
 
         // GET: Departments/Details/5

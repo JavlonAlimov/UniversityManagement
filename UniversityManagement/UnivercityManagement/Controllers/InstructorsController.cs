@@ -20,10 +20,32 @@ namespace UniversityManagement.Controllers
         }
 
         // GET: Instructors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, int? departmentId)
         {
-            var universityDbContext = _context.Instructors.Include(i => i.Department);
-            return View(await universityDbContext.ToListAsync());
+            var query = _context.Instructors
+                .Include(x => x.Department)
+                .AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(searchString))
+            {
+                query = query.Where(x => x.FirstName.Contains(searchString) ||
+                x.LastName.Contains(searchString) ||
+                x.Department!.Name.Contains(searchString));
+            }
+
+            if (departmentId.HasValue)
+            {
+                query = query.Where(x => x.DepartmentId == departmentId);
+            }
+
+            var instructors = await query.ToListAsync();
+            var departments = await _context.Departments.ToListAsync();
+            var selectedDepartment = departments.FirstOrDefault(x => x.Id == departmentId);
+
+            ViewBag.Departments = new SelectList(departments, "Id", "Name", selectedDepartment?.Id);
+            ViewBag.Search = searchString;
+
+            return View(instructors);
         }
 
         // GET: Instructors/Details/5
@@ -48,7 +70,7 @@ namespace UniversityManagement.Controllers
         // GET: Instructors/Create
         public IActionResult Create()
         {
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name");
+            ViewData["Departments"] = new SelectList(_context.Departments, "Id", "Name");
             return View();
         }
 
@@ -65,7 +87,7 @@ namespace UniversityManagement.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", instructor.DepartmentId);
+            ViewData["Departments"] = new SelectList(_context.Departments, "Id", "Name", instructor.DepartmentId);
             return View(instructor);
         }
 
